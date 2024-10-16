@@ -1,0 +1,141 @@
+* {
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(#5c5a59 50%, #f3acc3 50%); */
+    background: linear-gradient(#f3acc3 35%, #5c5a59 100%);
+    display: flex;
+}
+
+/* Header */
+.section1 {
+    margin: 1% 1% 0 1%;
+    height: 50px;
+    background: #5c5a59;
+    border-radius: 5px;
+  }
+  
+  .section1 .main {
+    float: left;
+    display: flex;
+  }
+  
+  .section1 .title {
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #f3acc3;
+  }
+  
+  .section1 img {
+    width: 40px;
+    height: 40px;
+    margin: 2px 10px;
+    background-size: 2% 2%;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .section1 ul.menubar {
+    font-size: 12pt;
+    font-weight: bold;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .section1 ul.menubar li {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .section1 ul.menubar li a {
+    text-decoration: none;
+    color: #f3acc3;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .section1 ul.menubar li a:hover {
+    color: #ff719e;
+    font-weight: bolder;
+    border-bottom: 2px solid #02071f;
+    padding-bottom: 0px;
+  }
+
+/* Login */
+div.login {
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    background: #fff9fb;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+/* Login */
+.leftLogin {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 5% 0 10%;
+}
+
+.head {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.leftLogin input.inputtext {
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color:  #fde0e9;
+    width: 100%;
+    padding: 3px;
+    border-style: none;
+}
+
+.leftLogin a {
+    color: black;
+    text-decoration: none;
+}
+p.fgpass {
+    margin: 0;
+}
+
+.leftLogin button {
+    background-color: #f3acc3;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    padding: 2% 0 2% 0;
+    background: linear-gradient(90deg, #f3acc3 40%, #ff7ca5 100%);
+    border-style: none;
+}
+/* Image */
+.rightImage {
+    float: right;
+    width: 50%;
+}
+
+.rightImage img {
+    width: 80%;
+    height: 45vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+

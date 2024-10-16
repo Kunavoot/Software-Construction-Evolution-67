@@ -1,0 +1,272 @@
+* {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7f7f7f;
+}
+
+/* ------ ส่วน Header ------ */
+
+.adminHeader {
+  width: 100%;
+  height: 11vh;
+  background: #5c5a59;
+  border-radius: 5px;
+}
+
+/* หัวส่วนซ้าย */
+
+div.headleft {
+  float: left;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+
+div.logo img {
+  width: 40px;
+  height: 40px;
+  margin: 2px 10px;
+  background-size: 2% 2%;
+  background-position: center;
+  text-align: center;
+}
+
+div.title {
+  margin: 0;
+  padding: 0;
+  color: #f3acc3;
+  text-align: left;
+}
+
+div.title h4 {
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 0;
+}
+
+div.title p {
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* ส่วนขวา */
+.headright {
+  float: right;
+  display: inline;
+  width: 55%;
+}
+
+ul.menubar {
+  margin: 6px;
+  font-size: 12pt;
+  list-style: none;
+  float: right;
+}
+
+.adminHeader ul.menubar li {
+  color: #f3acc3;
+  float: left;
+  margin-right: 10px;
+}
+
+.headright p {
+  margin: 3px;
+  font-size: 10pt;
+  padding-top: 5px;
+  margin-right: 10px;
+  color: #f3acc3;
+  text-align: right;
+}
+
+.adminHeader ul.menubar li a {
+  text-decoration: none;
+  color: #fdcfde;
+  font-weight: bolder;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.adminHeader ul.menubar li a:hover {
+  color: #ff719e;
+  font-weight: bolder;
+  border-bottom: 2px solid rgb(244, 243, 245);
+  padding-bottom: 0px;
+}
+
+/* ------ ส่วน Body ------ */
+
+div.main {
+  width: 75vw;
+  height: 85vh;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.topic {
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  /* background-color: #5c5a59; */
+  padding: 0 10px 0 10px ;
+}
+
+.topic p {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  float: left;
+  font-size: 18pt;
+}
+
+.topic button {
+  float: right;
+  /* margin-right: 10px; */
+}
+
+.work {
+  /* width: 100vw;  */
+  height: 70vh;
+  overflow: auto;
+  margin: auto;
+}
+
+.work .header th{
+  text-align: center;
+  justify-content: center;
+}
+.work table {
+  margin-bottom: 0;
+}
+
+.work th {
+  background-color: #f3acc3;
+  border: #5c5a59;
+  text-align: center;
+}
+
+.work td{
+  background-color: #ffe8f0;
+  text-align: center;
+}
+
+.work td.name{
+  text-align: left;
+}
+
+thead tr {
+  position: sticky;
+}
+
+.work tr {
+  border-radius: 5px;
+}
+
+/* -- info -- */
+
+.info_member, .info_employee, .info_product {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: none;
+  backdrop-filter: blur(5px);
+  color: #5c5a59;
+}
+
+.info_detail {
+  width: 60vw;
+  height: 70vh;
+  border-radius: 5px;
+  background-color: #f3acc3;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.info_detail h4 {
+  font-weight: bold;
+}
+
+.info_detail .infoLeft {
+  float: left;
+  width: 60%;
+  height: 90%;
+  padding: 10px;
+  /* border: 2px solid black; */
+  /* background-color: #ff719e; */
+}
+
+.infoLeft label {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+}
+
+.infoLeft input,textarea {
+  border-radius: 5px;
+  border: none;
+  color: black;
+  width: 100%;
+  /* margin: 5px; */
+}
+
+.infoLeft .row {
+  margin-bottom: 5px;
+}
+
+.info_detail .infoRight {
+  float: right;
+  width: 40%;
+  height: 90%;
+  padding: 10px;
+  /* border: 2px solid black; */
+  /* background-color: #ff719e; */
+  justify-content: center;
+  text-align: center;
+}
+
+.infoRight p {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.infoRight img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.info_detail .infoRight input {
+  width: 16vw;
+  border-radius: 5px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.work a {
+  text-decoration: none;
+  color : black;
+}
+
+.info_employee .infoLeft {
+  padding-top: 20px;
+}
